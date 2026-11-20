@@ -1,5 +1,7 @@
 # BertMS_NPs
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24389538.svg)](https://doi.org/10.5281/zenodo.24389538)
+
 A BERT-based approach for rapid dereplication of natural products from mass
 spectrometry (MS/MS) data: spectral embedding via a from-scratch BERT
 implementation, similarity-network construction, clustering, and
@@ -56,6 +58,15 @@ To pretrain BertMS from scratch, see `Tasks/TasksForPretraining_ms.py`.
 - [matchms](https://github.com/matchms/matchms) — spectral data handling (Apache-2.0)
 - The core BERT implementation is adapted from the
   [BertWithPretrained](https://github.com/moon-hotel/BertWithPretrained) tutorial project.
+
+## How to cite
+
+If you use this code, please cite the archived release:
+
+```
+zln. (2026). OUCArthur/BertMS_NPs: v1.0.0 - Initial public release.
+Zenodo. https://doi.org/10.5281/zenodo.24389538
+```
 
 ## License
 
