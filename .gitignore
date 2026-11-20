@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+.conda/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data, weights, logs, results — too large / not meant for the repo
+# (root-anchored so matchms_ws/data/*.csv reference tables are NOT excluded)
+/data/
+*.msp
+*.mgf
+*.bin
+*.pt
+*.pth
+*.model
+*.log
+/results/
+/bert_base_ms/
+/bert_base_chinese/
+/bert_base_uncased_english/
+/storage/
+
+# OS
+.DS_Store
+Thumbs.db

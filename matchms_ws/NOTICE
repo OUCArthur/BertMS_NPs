@@ -1,0 +1,16 @@
+matchms_ws
+Copyright 2020 Netherlands eScience Center and contributors
+
+This product includes software developed by the matchms project
+(https://github.com/matchms/matchms), originally authored by Florian Huber,
+Justin J. J. van der Hooft, Jurriaan H. Spaaks, Faruk Diblen, Stefan Verhoeven,
+Cunliang Geng, Christiaan Meijer, Simon Rogers, Adam Belloum, Hanno Spreeuw,
+Efrain Manuel Villanueva Castilla, Kianoosh Ashouritaklimi, Niek de Jonge,
+Helge Hecht, Maksym Skoryk, Zargham Ahmad, Aleksander Piciga, Adriano Rutz,
+Julian Pollmann, and other contributors, and licensed under the Apache
+License, Version 2.0 (see LICENSE in this directory).
+
+The `matchms_ws` directory in this repository is a modified copy of matchms,
+adapted for use with the BertMS pipeline. Files have been changed from their
+original form; see the parent repository's git history for details of the
+modifications.

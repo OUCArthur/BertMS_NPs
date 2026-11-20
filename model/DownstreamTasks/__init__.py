@@ -1,0 +1,4 @@
+from .BertForNSPAndMLM import BertForNextSentencePrediction
+from .BertForNSPAndMLM import BertForMaskedLM
+from .BertForNSPAndMLM import BertForMaskedLM_pre
+from .BertForNSPAndMLM import BertForPretrainingModel
