@@ -35,9 +35,15 @@ project (Apache-2.0); the original `matchms` package is also required (see
 
 ## Data and pretrained weights
 
-Raw spectra, the pretrained `bert_base_ms` checkpoint, and training logs are
-**not** included in this repository due to size. See [TODO: add download link /
-instructions] for how to obtain them. Point `config.pretrained_model_dir` /
+Raw spectra and training logs are **not** included in this repository due to
+size.
+
+The pretrained BertMS checkpoint (`model_ms_225.bin`, `config.json`,
+`vocab.txt`) is hosted on Hugging Face Hub:
+https://huggingface.co/Arthur233/bertms-pretrained
+(DOI: [10.57967/hf/11725](https://doi.org/10.57967/hf/11725)).
+
+Download those three files and point `config.pretrained_model_dir` /
 `config.dataset_dir` in `run_analysis_refactored.ipynb` at wherever you place
 them.
 
@@ -66,6 +72,13 @@ If you use this code, please cite the archived release:
 ```
 zln. (2026). OUCArthur/BertMS_NPs: v1.0.0 - Initial public release.
 Zenodo. https://doi.org/10.5281/zenodo.24389538
+```
+
+Pretrained weights:
+
+```
+Arthur233. (2026). BertMS pretrained weights.
+Hugging Face. https://doi.org/10.57967/hf/11725
 ```
 
 ## License
